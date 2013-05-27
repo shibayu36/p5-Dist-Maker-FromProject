@@ -25,3 +25,10 @@ cover_db*
 *.gcov
 *.stackdump
 .dimconfig
+/Dist-Maker-FromProject-*
+/.build
+/_build_params
+/Build
+!Build/
+!META.json
+!LICENSE
