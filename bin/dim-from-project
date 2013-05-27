@@ -1,0 +1,7 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+
+use Dist::Maker::FromProject::CLI;
+
+Dist::Maker::FromProject::CLI->new->run(@ARGV);
