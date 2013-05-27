@@ -108,8 +108,6 @@ This document describes Dist::Maker::FromProject version 0.01.
 
 =head3 C<< make_template >>
 
-=head3 C<< make_template >>
-
 # TODO
 
 =head1 DEPENDENCIES
