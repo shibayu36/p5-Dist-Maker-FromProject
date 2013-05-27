@@ -106,7 +106,9 @@ This document describes Dist::Maker::FromProject version 0.01.
 
 =head2 Functions
 
-=head3 C<< hello() >>
+=head3 C<< make_template >>
+
+=head3 C<< make_template >>
 
 # TODO
 
