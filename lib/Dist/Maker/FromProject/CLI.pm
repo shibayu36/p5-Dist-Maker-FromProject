@@ -55,7 +55,7 @@ HELP
 
 sub print {
     my ($self, $msg) = @_;
-    print STDERR $msg;
+    print STDOUT $msg;
 }
 
 1;
