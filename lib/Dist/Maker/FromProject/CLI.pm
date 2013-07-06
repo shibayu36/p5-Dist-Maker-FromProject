@@ -30,7 +30,7 @@ sub run {
         return;
     }
 
-    unless ($self->{class} && $self->{config_file} && $self->{project_dir}) {
+    unless ($self->{class} && $self->{project_dir}) {
         $self->usage;
         return;
     }

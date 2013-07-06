@@ -54,7 +54,7 @@ FORMAT
 
 sub _build_config {
     my ($self) = @_;
-    return config_do $self->config_file;
+    return $self->config_file ? config_do $self->config_file : {};
 }
 
 sub make_template {
